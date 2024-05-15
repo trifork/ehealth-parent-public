@@ -21,7 +21,10 @@
 
         <release.branch>releases</release.branch>
         <release.develop.branch>develop</release.develop.branch>
-        <pipeline.sonarqube.branch>develop</pipeline.sonarqube.branch>
+
+        <!--    we use these properties in the jenkins pipeline, they can be overwritten in child projects    -->
+        <pipeline.sonarqube.branch>develop-17</pipeline.sonarqube.branch>
+        <pipeline.java.version>17</pipeline.java.version>
 
         <!-- Dependency check Sonarqube plugin -->
         <sonar.dependencyCheck.htmlReportPath>target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
