@@ -19,8 +19,9 @@
         <error-prone.version>2.13.1</error-prone.version>
         <argLine/> <!-- empty placeholder added to surefire and failsafe using @{argLine} late property replacement. Modified when running with jacoco plugin -->
 
-        <release.branch>releases</release.branch>
-        <release.develop.branch>develop</release.develop.branch>
+        <!--   used by the fut-build tool (the `fut release` command)     -->
+        <release.branch>release-17</release.branch>
+        <release.develop.branch>develop-17</release.develop.branch>
 
         <!--    we use these properties in the jenkins pipeline, they can be overwritten in child projects    -->
         <pipeline.sonarqube.branch>develop-17</pipeline.sonarqube.branch>
