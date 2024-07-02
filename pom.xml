@@ -140,7 +140,12 @@
                         <additionalClasspathElements>
                             <additionalClasspathElement>${basedir}/target/classes</additionalClasspathElement>
                         </additionalClasspathElements>
-                        <argLine>@{argLine} -Dfile.encoding=${project.build.sourceEncoding}</argLine>
+                        <!-- Add java.base/java.lang.reflect=ALL-UNNAMED, to allow mock/spy frameworks to work correctly -->
+                        <argLine>
+                            @{argLine}
+                            -Dfile.encoding=${project.build.sourceEncoding}
+                            --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+                        </argLine>
                         <environmentVariables>
                             <SPRING_PROFILES_INCLUDE>test</SPRING_PROFILES_INCLUDE>
                             <FUT_LOG4J_APPENDER>PrettyConsole</FUT_LOG4J_APPENDER>
@@ -157,7 +162,12 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.3.0</version>
                     <configuration>
-                        <argLine>@{argLine} -Dfile.encoding=${project.build.sourceEncoding}</argLine>
+                        <!-- Add java.base/java.lang.reflect=ALL-UNNAMED, to allow mock/spy frameworks to work correctly -->
+                        <argLine>
+                            @{argLine}
+                            -Dfile.encoding=${project.build.sourceEncoding}
+                            --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+                        </argLine>
                         <environmentVariables>
                             <FUT_LOG4J_APPENDER>PrettyConsole</FUT_LOG4J_APPENDER>
                         </environmentVariables>
