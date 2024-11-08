@@ -17,6 +17,14 @@
       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r4@.*$</packageUrl>
       <cpe>cpe:/a:fhir:hapi_fhir</cpe>
     </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.dstu2-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.dstu2@.*$</packageUrl>
+      <vulnerabilityName>CVE-2024-51132</vulnerabilityName>
+    </suppress>
     
     <suppress>
         <notes><![CDATA[
