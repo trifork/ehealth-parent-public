@@ -14,6 +14,14 @@
        <notes><![CDATA[
        file name: org.hl7.fhir.dstu3-6.1.2.2.jar
        ]]></notes>
+       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.dstu2016may@.*$</packageUrl>
+       <vulnerabilityName>CVE-2024-52007</vulnerabilityName>
+    </suppress>
+    
+    <suppress>
+       <notes><![CDATA[
+       file name: org.hl7.fhir.dstu3-6.1.2.2.jar
+       ]]></notes>
        <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.dstu3@.*$</packageUrl>
        <vulnerabilityName>CVE-2024-52007</vulnerabilityName>
     </suppress>
