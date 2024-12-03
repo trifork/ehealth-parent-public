@@ -872,4 +872,22 @@
     </suppress>
     <!-- END CVE-2023-6267 suppresions -->
     <!--    END KEYCLOAK QUARKUS FIXES-->
+
+    <!-- No patch available yet for: flyway-database-postgresql-11.0.0.jar:
+        CVE-2019-10211(9.8),
+        CVE-2015-3166(9.8),
+        CVE-2016-7048(8.1),
+        CVE-2018-1115(9.1),
+        CVE-2015-0244(9.8) -->
+    <suppress>
+        <notes><![CDATA[
+   file name: flyway-database-postgresql-11.0.0.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.flywaydb/flyway\-database\-postgresql@.*$</packageUrl>
+        <cve>CVE-2019-10211</cve>
+        <cve>CVE-2015-3166</cve>
+        <cve>CVE-2016-7048</cve>
+        <cve>CVE-2018-1115</cve>
+        <cve>CVE-2015-0244</cve>
+    </suppress>
 </suppressions>
