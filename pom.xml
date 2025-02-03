@@ -61,7 +61,7 @@
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>exec-maven-plugin</artifactId>
-                    <version>3.3.0</version>
+                    <version>3.5.0</version>
                 </plugin>
 
                 <plugin>
@@ -134,7 +134,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-failsafe-plugin</artifactId>
-                    <version>3.3.0</version>
+                    <version>3.5.2</version>
                     <configuration>
                       <!-- Because of spring-boot-maven-plugin's 'repackage' goal we need to tell failsafe where to find our classes-->
                         <additionalClasspathElements>
