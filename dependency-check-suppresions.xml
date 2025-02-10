@@ -11,6 +11,150 @@
     </suppress>
 
     <suppress>
+       <notes><![CDATA[
+       file name: org.hl7.fhir.r4-6.3.11.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r4@.*$</packageUrl>
+       <vulnerabilityName>CVE-2024-52007</vulnerabilityName>
+    </suppress>
+    
+    <suppress>
+       <notes><![CDATA[
+       file name: org.hl7.fhir.dstu3-6.1.2.2.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.dstu2016may@.*$</packageUrl>
+       <vulnerabilityName>CVE-2024-52007</vulnerabilityName>
+    </suppress>
+    
+    <suppress>
+       <notes><![CDATA[
+       file name: org.hl7.fhir.dstu3-6.1.2.2.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.dstu3@.*$</packageUrl>
+       <vulnerabilityName>CVE-2024-52007</vulnerabilityName>
+    </suppress>
+    
+    <suppress>
+       <notes><![CDATA[
+       file name: org.hl7.fhir.r4b-6.1.2.2.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r4b@.*$</packageUrl>
+       <vulnerabilityName>CVE-2024-52007</vulnerabilityName>
+    </suppress>
+    
+    <suppress>
+       <notes><![CDATA[
+       file name: org.hl7.fhir.r5-6.1.2.2.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r5@.*$</packageUrl>
+       <cve>CVE-2024-52007</cve>
+    </suppress>
+    
+    <suppress>
+       <notes><![CDATA[
+       file name: org.hl7.fhir.r4-6.1.2.2.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r4@.*$</packageUrl>
+       <cve>CVE-2024-52007</cve>
+    </suppress>
+    
+    <suppress>
+       <notes><![CDATA[
+       file name: org.hl7.fhir.r4-6.3.4.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r4@.*$</packageUrl>
+       <cve>CVE-2024-52007</cve>
+    </suppress>
+    
+    <suppress>
+       <notes><![CDATA[
+       file name: org.hl7.fhir.utilities-6.3.4.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.utilities@.*$</packageUrl>
+       <cve>CVE-2024-52007</cve>
+    </suppress>
+    
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.utilities-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.utilities@.*$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.convertors-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.convertors@.*$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.dstu2016may-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.dstu2016may@.*$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.validation-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.validation@.*$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.dstu3-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.dstu3@.*$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.r4b-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r4b@.*$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.r5-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r5@.*$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.r4-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r4@.*$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.r4-6.3.11.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.r4@6\.3\.11$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+
+    <suppress>
+      <notes><![CDATA[
+      file name: org.hl7.fhir.dstu2-6.1.2.2.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.dstu2@.*$</packageUrl>
+      <cve>CVE-2024-51132</cve>
+    </suppress>
+    
+    <suppress>
         <notes><![CDATA[
      file name: log4j-api-kotlin-1.1.0.jar
      ]]></notes>
@@ -464,324 +608,4 @@
         <packageUrl regex="true">^pkg:maven/org\.apache\.axis/axis\-jaxrpc@1\.4$</packageUrl>
         <cve>CVE-2023-40743</cve>
     </suppress>
-
-    <!--    BEGIN KEYCLOAK QUARKUS FIXES-->
-    <!--  Once keycloak internally uses a newer version, we can discard this whole section -->
-    <suppress>
-        <notes><![CDATA[
-   file name: resteasy-reactive-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-
-    <suppress>
-        <notes><![CDATA[
-   file name: resteasy-reactive-vertx-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive\-vertx@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-core-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-core@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-arc-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-arc@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: arc-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.arc/arc@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-jsonp-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-jsonp@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-netty-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-netty@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: resteasy-reactive-common-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive\-common@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-vertx-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: resteasy-reactive-common-types-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive\-common\-types@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-mutiny-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-mutiny@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-vertx-http-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx\-http@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-credentials-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-credentials@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-ide-launcher-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-ide\-launcher@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-bootstrap-runner-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-bootstrap\-runner@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-resteasy-reactive-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-resteasy\-reactive@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-development-mode-spi-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-development\-mode\-spi@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-security-runtime-spi-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-security\-runtime\-spi@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-resteasy-reactive-common-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-resteasy\-reactive\-common@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-smallrye-context-propagation-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-smallrye\-context\-propagation@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-vertx-latebound-mdc-provider-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx\-latebound\-mdc\-provider@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-vertx-http-dev-console-runtime-spi-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx\-http\-dev\-console\-runtime\-spi@.*$</packageUrl>
-        <cve>CVE-2023-6394</cve>
-    </suppress>
-
-    <!-- BEGIN CVE-2023-6267 suppresions -->
-    <!--  We suprress this because we are not using annotation based security.  -->
-    <!--  Delete suppression when keycloak moves from using quarkus v3.2.9  -->
-    <suppress>
-        <notes><![CDATA[
-   file name: arc-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.arc/arc@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-arc-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-arc@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-core-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-core@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: resteasy-reactive-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-jsonp-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-jsonp@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: resteasy-reactive-vertx-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive\-vertx@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-netty-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-netty@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: resteasy-reactive-common-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive\-common@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-vertx-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: resteasy-reactive-common-types-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive\-common\-types@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-mutiny-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-mutiny@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-vertx-http-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx\-http@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-credentials-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-credentials@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-ide-launcher-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-ide\-launcher@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-bootstrap-runner-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-bootstrap\-runner@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-resteasy-reactive-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-resteasy\-reactive@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-development-mode-spi-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-development\-mode\-spi@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-security-runtime-spi-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-security\-runtime\-spi@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-resteasy-reactive-common-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-resteasy\-reactive\-common@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-smallrye-context-propagation-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-smallrye\-context\-propagation@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-vertx-latebound-mdc-provider-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx\-latebound\-mdc\-provider@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: quarkus-vertx-http-dev-console-runtime-spi-3.2.9.Final.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx\-http\-dev\-console\-runtime\-spi@.*$</packageUrl>
-        <cve>CVE-2023-6267</cve>
-    </suppress>
-    <!-- END CVE-2023-6267 suppresions -->
-    <!--    END KEYCLOAK QUARKUS FIXES-->
 </suppressions>
